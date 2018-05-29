@@ -46,5 +46,5 @@ class Commerces < OpenPayResource
       #will raise the appropriate exception and return
       OpenpayExceptionFactory::create(e)
     end
-
+  end
 end
