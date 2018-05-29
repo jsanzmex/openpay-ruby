@@ -25,6 +25,7 @@ module Openpay
   require 'openpay/transfers'
   require 'openpay/charges'
   require 'openpay/webhooks'
+  require 'openpay/commerces'
 
   #misc
   require 'openpay/utils/search_params'
