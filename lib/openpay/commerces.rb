@@ -13,11 +13,11 @@ class Commerces < OpenPayResource
 
     @errors = false
 
-    if merchant_id.nil?
+    if merchant_id.empty?
       merchant_id = @merchant_id
     end
     
-    if private_key.nil?
+    if private_key.empty?
       private_key = @private_key
     end
 
